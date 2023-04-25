@@ -16,9 +16,7 @@ public class ScenaVideo {
         Thread.sleep(10000);
         Actions actions = new Actions(driver);
        WebElement firstCircle = driver.findElement(By.cssSelector("body>svg>text"));
-//        driver.findElement(By.cssSelector("body > svg > circle:nth-child(7)")).click();
-//       WebElement firstCircle = driver.findElement(By.linkText("DRAG"));
-//        WebElement circle=driver.findElement(By.partialLinkText("DRA"));
+
         Thread.sleep(10000);
         WebElement secondCircle = driver.findElement(By.cssSelector("body >svg>circle:nth-child(4)"));
         int x= secondCircle.getLocation().x+(secondCircle.getSize().width)/2;
