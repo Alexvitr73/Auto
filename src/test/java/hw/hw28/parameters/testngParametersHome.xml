@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AllTests Suite">
+
+    <test name="Test1">
+        <parameter name = "input" value = "input"/>
+        <classes>
+            <class name="hw.hw28.parameters.ParametersSearchFoxtrot"/>
+        </classes>
+    </test>
+
+    <test name="Test2">
+        <parameter name = "input" value = "смысл"/>
+        <classes>
+            <class name="hw.hw28.parameters.ParametersSearchFoxtrot"/>
+        </classes>
+    </test>
+
+    <test name="Test3">
+        <parameter name = "input" value = "машина"/>
+        <classes>
+            <class name="hw.hw28.parameters.ParametersSearchFoxtrot"/>
+        </classes>
+    </test>
+
+</suite>

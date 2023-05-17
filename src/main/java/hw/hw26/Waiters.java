@@ -49,11 +49,11 @@ public class Waiters {
 
     //    presenceOfElementLocated() - ожидание проверка наличия элемента
 
-    public void waitTopresenceOfElementLocated(By by) {
+    public void waitToPresenceOfElementLocated(By by) {
         waitForFunction(ExpectedConditions.presenceOfElementLocated(by), EXPLICITY_WAIT);
     }
 
-    public WebElement waitTopresenceOfElementLocatedReturn(By by) {
+    public WebElement waitToPresenceOfElementLocatedReturn(By by) {
         return fluentWait(EXPLICITY_WAIT).until(ExpectedConditions.presenceOfElementLocated(by));
     }
 
